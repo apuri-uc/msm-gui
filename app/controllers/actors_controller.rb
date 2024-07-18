@@ -11,7 +11,7 @@ class ActorsController < ApplicationController
 
     the_actor.save
 
-    redirect_to("/actors/#{the_d=actor.id}")
+    redirect_to("/actors/#{the_actor.id}")
   end
   
   def create
